@@ -1,0 +1,21 @@
+/* seletor:pseudo-classe {
+    propriedade: valor;
+} */
+
+p:first-child {
+    color: aquamarine;
+}
+
+p:last-child {
+    color: blueviolet;
+}
+
+p:not(.padrao) {
+    color: black;
+}
+
+li:nth-child(odd){
+    color: red;
+}
+/* odd = impar
+even = par */
