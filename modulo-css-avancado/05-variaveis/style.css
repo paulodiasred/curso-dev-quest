@@ -1,0 +1,24 @@
+:root {
+    --cor-padrao: red;
+    --tamanho-de-fonte-padrao: 20px
+}
+
+h2 {
+    color: --cor-padrao;
+    font-size: 20px;
+}
+
+h3 {
+    color: red;
+    font-size: 20px;
+}
+
+p {
+    color: red;
+    font-size: 20px;
+}
+
+span {
+    color: red;
+    font-size: 20px;
+}
