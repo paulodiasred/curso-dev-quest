@@ -1,0 +1,20 @@
+.row {
+    display: flex;
+    /* por padrao o flex direction ja é row, sendo desnecessario colocar o mesmo, colocado apenas para estudo */
+    flex-direction: row;
+}
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}

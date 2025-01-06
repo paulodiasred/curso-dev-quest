@@ -1,0 +1,25 @@
+.flex-start {
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+}
+
+.stretch {
+    display: flex;
+/* Por padrao, align items ja vem como stretch */
+    align-items: stretch;
+}
+
+.baseline {
+    display: flex;
+    align-items: baseline;
+}

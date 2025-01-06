@@ -1,0 +1,101 @@
+.imagem-top img {
+  position: absolute;
+  width: 70%;
+  top: -90%;
+  left: -15%;
+  z-index: 1;
+}
+
+.imagem-bot img {
+  position: absolute;
+  width: 78%;
+  right: -25%;
+  bottom: -100%;
+  z-index: 1;
+}
+
+.cartao-perfil {
+  position: relative;
+  z-index: 2;
+  background: white;
+  width: 350px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+.cartao-perfil-topo {
+  width: 100%;
+  height: 120px;
+  background-image: url("/src/images/bg-pattern-card.svg");
+  background-position: center;
+  background-size: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.img-profile {
+  position: relative;
+  margin-top: -50px;
+  text-align: center;
+}
+
+.img-profile img {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+}
+
+.detalhes {
+  text-align: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid hsl(0, 0%, 90%);
+}
+
+.detalhes h2 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.detalhes h2 span {
+  font-weight: normal;
+  color: grey;
+}
+
+.detalhes p {
+  font-size: 0.9rem;
+  color: grey;
+}
+
+.status {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto 0;
+  padding: 20px;
+  width: 80%;
+  text-align: center;
+}
+
+.status div {
+  text-align: center;
+}
+
+.status h3 {
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.status p {
+  font-size: 0.8rem;
+  color: gray;
+}

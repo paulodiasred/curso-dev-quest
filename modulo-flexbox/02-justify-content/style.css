@@ -1,0 +1,38 @@
+.flex-start {
+    display: flex;
+    flex-direction: column;
+/* por padrao o justify content se inicia em flex-start, mnao sendo necessario colocar, colocando apenas por estudo */
+    justify-content: flex-start;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.container.space-between div,
+.container.space-evenly div,
+.container.space-around div {
+    margin: 0;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+

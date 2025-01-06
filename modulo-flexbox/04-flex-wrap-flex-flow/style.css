@@ -1,0 +1,17 @@
+.nowrap {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* flex flow une o flex warp e flex-direction, sendo assim, as duas acima podem ser deletadas */
+    flex-flow: column wrap;
+}
+
+.wrap-reverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
