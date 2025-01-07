@@ -1,0 +1,145 @@
+.container {
+    background-color: #f7f7f7;
+    max-width: 900px;
+    display: grid;
+    grid-template-areas:
+    "video-destaque propaganda"
+    "video-destaque videos-sugeridos";
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 56px 1fr;
+    gap: 20px;
+    padding: 35px;
+}
+
+.video-destaque {
+    grid-area: video-destaque;
+}
+
+.video-destaque img {
+    margin-bottom: 12px;
+    width: 100%;
+}
+
+.video-destaque .titulo {
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.video-destaque .visualizacao {
+    font-size: 14px;
+    margin-bottom: 7px;
+    font-weight: 300;
+}
+
+.video-destaque  p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.propaganda {
+    grid-area: propaganda;
+}
+
+.videos-sugeridos {
+    grid-area: videos-sugeridos;
+}
+
+.videos-sugeridos .video {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.videos-sugeridos .informacoes h2 {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.videos-sugeridos .informacoes p {
+    font-size: 11px;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+
+
+
+
+
+
+/* .container {
+  display: grid;
+  grid-template-areas:
+    "video-destaque video-destaque propaganda"
+    "video-destaque video-destaque videos-pequenos"
+    "conteudo-video-destaque conteudo-video-destaque videos-pequenos";
+  grid-template-columns: 2fr 2fr 1fr;
+  gap: 10px;
+  padding: 20px;
+}
+
+.video-destaque {
+  grid-area: video-destaque;
+  background: #ccc;
+  width: 100%;
+  height: 90%;
+}
+
+.conteudo-video-destaque {
+  grid-area: conteudo-video-destaque;
+  padding: 10px;
+  background: #f9f9f9;
+}
+
+.propaganda {
+  grid-area: propaganda;
+  background: #ddd;
+  text-align: center;
+  padding: 10px;
+  width: 270px;
+  height: 56px;
+}
+
+.video-pequeno {
+  background: #f0f0f0;
+  padding: 10px;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  height: auto;
+}
+.video-pequeno img {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
+
+.videos-pequenos {
+  grid-area: videos-pequenos;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.video-pequeno .info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+h2 {
+  margin: 0;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+p {
+    margin-top: 5px;
+  color: #666;
+  font-size: 11px;
+  font-weight: 300;
+} */
