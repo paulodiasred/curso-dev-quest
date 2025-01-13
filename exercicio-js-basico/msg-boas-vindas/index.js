@@ -1,1 +1,0 @@
-prompt('Bom dia, poderia informar seu nome?')
